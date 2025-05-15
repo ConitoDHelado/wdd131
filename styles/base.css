@@ -52,6 +52,7 @@ main{
     text-align: left;
     padding: 1rem;
     margin: 20px;
+    max-width: fit-content;
 }
 
 .about{
