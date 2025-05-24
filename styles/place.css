@@ -1,0 +1,28 @@
+:root{
+    --blue: #0768A9;
+    --yellow: #FFCC00;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    display:block
+
+}
+
+header h1{
+    background-color: var(--yellow);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: var(--yellow);
+}
