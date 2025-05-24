@@ -26,3 +26,37 @@ header h1{
 footer{
     background-color: var(--yellow);
 }
+
+@media screen and (min-width: 1000px) {
+    
+    html,
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .hero img{
+        position: relative;
+    }
+
+    .data{
+        position: absolute;
+        top: 8em;
+        left: 6em;
+    }
+
+    div h2{
+        background-color: var(--blue);
+        text-align: left;
+    }
+
+    ul{
+        text-decoration: none;
+    }
+
+    .weather{
+        position: absolute;
+        bottom: 8em;
+        right: 6em;
+    }
+}
