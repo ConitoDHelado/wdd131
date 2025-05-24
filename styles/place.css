@@ -10,12 +10,20 @@
 body{
     font-family: Roboto, sans-serif;
     text-align: center;
-    display:block
+    display:flex;
+    flex-direction: column;
 
 }
 
 header h1{
     background-color: var(--yellow);
+    font-size: 3em;
+    padding: 0.5em;
+    border-bottom: 0.5em solid var(--blue);
+}
+
+ul{
+    list-style: none;
 }
 
 .hero img {
@@ -23,7 +31,12 @@ header h1{
     height: auto;
 }
 
+div{
+    padding: 1em;
+}
+
 footer{
+    padding: 1em;
     background-color: var(--yellow);
 }
 
@@ -48,10 +61,6 @@ footer{
     div h2{
         background-color: var(--blue);
         text-align: left;
-    }
-
-    ul{
-        text-decoration: none;
     }
 
     .weather{
