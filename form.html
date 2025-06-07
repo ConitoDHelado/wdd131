@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Form Project - Efraín Pérez"</title>
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals ~ Efraín Pérez ~ Form Assignment">
+    <meta name="author" content="Efraín Pérez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdate.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html">
+            
+            <select id="product" name="product" required>
+                <option value="" disabled selected>Select a Product</option>
+
+            </select>
+            
+            <div>Overall Rating</div>
+            <label><input type="radio" name="rating" value="1" required id="onestar">☆</label>
+            <label><input type="radio" name="rating" value="2" required id="twostar">☆☆</label>
+            <label><input type="radio" name="rating" value="3" required id="threestar">☆☆☆</label>
+            <label><input type="radio" name="rating" value="4" required id="fourstar">☆☆☆☆</label>
+            <label><input type="radio" name="rating" value="5" required id="fivestar">☆☆☆☆☆</label>
+
+            <label>Anticipated Completion Date <input type="date" id="installationDate" name="installationDate" required></label>
+
+            <div>Which features did you find useful in the product?</div>
+            <div class="cursive">(Check all that apply)</div>
+            <label><input type="checkbox" id="durability" name="durability" value="yes" required>Durability</label>
+            <label><input type="checkbox" id="easeOfUse" name="easeOfUse" value="yes" required>Ease of Use</label>
+            <label><input type="checkbox" id="performance" name="performance" value="yes" required>Performance</label>
+            <label><input type="checkbox" id="design" name="design" value="yes" required>Design</label>
+
+            <label>Written Review (Optional)<input type="textarea" id="review" name="review"></input></label>
+
+            <label>Your name (Optional)<input type="text" id="name" name="name"></label>            
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Efraín Pérez Delgado | Spain</p>
+        <p>Last modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
