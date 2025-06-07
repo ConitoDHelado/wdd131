@@ -47,7 +47,7 @@ main p{
 }
 
 .wf1 input[type=text],
-.wf1 input[type=textarea],
+.wf1 textarea,
 .wf1 input[type=date],
 .wf1 select
 {
@@ -56,7 +56,7 @@ main p{
     border-radius: 6px;
     padding: .75rem;
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .wf1 input[type="radio"],
