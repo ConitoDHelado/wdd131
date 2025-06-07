@@ -8,11 +8,21 @@ body{
 
 header, footer{
     text-align: center;
-    background-color: peachpuff;
     margin: 2rem 0;
     padding: .5rem;
     background-color: peachpuff;
     border-radius: 6px;
+}
+
+main p{
+    background-color: rgb(248, 229, 211);
+    margin: 2rem 0;
+    padding: .5rem;
+    background-color: rgb(248, 229, 211);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.2rem;
+
 }
 
 .wf1 {
