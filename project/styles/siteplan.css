@@ -1,0 +1,50 @@
+*{
+    font-family: Lato, sans-serif;
+    background-color: #fff;
+}
+
+body{
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+}
+
+h1, h2{
+    font-family: Montserrat, sans-serif;
+}
+
+
+a{
+    color: #157493;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li{
+    padding: 8px;
+}
+
+#color1{
+    color: #fff;
+    background-color:#006184;
+}
+
+#color2{
+    color: #157493;
+}
+
+#wireframe{
+    display:flex;
+}
+
+#wireframe figcaption{
+    padding: 0.5rem;
+    text-align: center;
+}
