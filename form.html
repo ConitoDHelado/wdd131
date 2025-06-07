@@ -18,12 +18,14 @@
     </header>
 
     <main>
-        <form method="get" action="review.html">
+        <form method="get" action="review.html" class="wf1">
             
-            <select id="product" name="product" required>
-                <option value="" disabled selected>Select a Product</option>
+            <label>Product Name
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product</option>
 
-            </select>
+                </select>
+            </label>
             
             <div>Overall Rating</div>
             <label><input type="radio" name="rating" value="1" required id="onestar">☆</label>
@@ -45,7 +47,9 @@
 
             <label>Your name (Optional)<input type="text" id="name" name="name"></label>
             
-            <input type="submit" value="Send My Review">
+            <div>
+                <input type="submit" value="Send My Review">
+            </div>
         </form>
     </main>
     
