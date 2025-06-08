@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <header>
@@ -38,17 +39,17 @@
 
             <div>Which features did you find useful in the product?</div>
             <div class="cursive">(Check all that apply)</div>
-            <label><input type="checkbox" id="durability" name="durability" value="yes" required>Durability</label>
-            <label><input type="checkbox" id="easeOfUse" name="easeOfUse" value="yes" required>Ease of Use</label>
-            <label><input type="checkbox" id="performance" name="performance" value="yes" required>Performance</label>
-            <label><input type="checkbox" id="design" name="design" value="yes" required>Design</label>
+            <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+            <label><input type="checkbox" id="easeOfUse" name="easeOfUse" value="yes">Ease of Use</label>
+            <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+            <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
 
             <label>Written Review (Optional)<textarea id="review" name="review"></textarea></label>
 
             <label>Your name (Optional)<input type="text" id="name" name="name"></label>
             
             <div>
-                <input type="submit" value="Send My Review">
+                <input id="button" type="submit" value="Send My Review">
             </div>
         </form>
     </main>
