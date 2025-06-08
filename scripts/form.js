@@ -34,3 +34,14 @@ products.forEach(product => {
     item.textContent = product.name;
     select.appendChild(item);
 })
+
+const button = document.querySelector("#button");
+
+let numReviews = Number(localStorage.getItem("numReviews-ls"));
+
+button.addEventListener("click", function () {
+    numReviews++;
+    localStorage.setItem("numReviews-ls", numReviews);
+
+})
+  
