@@ -22,6 +22,7 @@ a:hover {
 
 header{
     margin-bottom: 2rem;
+    
 }
 
 #mobile-nav{
@@ -68,14 +69,48 @@ header{
 
 
 /* ----- MAIN ----- */
+
+main, footer{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
 h1,
 h2 {
     font-family: Montserrat, sans-serif;
+    padding: 1rem 0;
+}
+ .title{
+    font-size: 48px;
+    margin-bottom: 3rem;
+ }
+
+
+.temple-layout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
 }
 
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
 
+.button1,
+.button2 {
+    width: 300px;
+    min-width: 150px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
 .button1 {
-    display: inline-block;
     outline: 1px solid var(--link2);
     background-color: var(--link2);
     color: white;
@@ -89,23 +124,26 @@ h2 {
 }
 
 .button2 {
-    display: inline-block;
     outline: 1px solid var(--link1);
     border-radius: 1px;
     padding: 1rem;
-    box-sizing: border-box;
 }
 
 .button2:hover {
     outline: 2px solid var(--link1);
 }
 
+.contact {
+    display:block;
+
+}
 
 /* ----- FOOTER ----- */
+
 .social_pages {
     display: flex;
     box-sizing: border-box;
-    text-align: center;
+    text-align: right;
     align-items: center;
 }
 
