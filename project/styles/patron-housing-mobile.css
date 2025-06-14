@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+
+    #mobile-nav{
+        display: flex;
+    }
+
+    #desktop-nav{
+        display: none;
+    }
+
+    #ham-menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #fff;
+    }
+
+    #ham-menu::before {
+        content: "☰";
+    }
+
+    #ham-menu.open::before {
+        content: "X";
+    }
+
+    .nav-list {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        list-style: none;
+    }
+
+    .nav-list a{
+        display: none;
+        text-align: left;
+        padding: 1rem;
+        text-decoration: none;
+        transition: 0.25s;
+    }
+
+    .open a {
+	    display: block;
+    }
+    
+}

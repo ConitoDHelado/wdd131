@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/church-logo.png" type="image/png">
+    <title>Madrid Spain Patron Housing</title>
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals ~ Efraín Pérez ~ Project Site Plan">
+    <meta name="author" content="Efraín Pérez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/patron-housing.css">
+    <link rel="stylesheet" href="styles/patron-housing-mobile.css">
+    <script src="/scripts/getdate.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+</head>
+<body>
+    <header>
+
+        <!-- HEADER FOR DESKTOP -->
+        <div id="desktop-nav">
+            <nav class="nav-row">
+                <div class="logos-row">
+                    <div class="menu-button">
+                        <a href="https://www.churchofjesuschrist.org/?lang=eng">
+                            <img id="chirst-logo" src="images/church_jesus_christ_simplified_symbol.png">
+                        </a>
+                    </div>  
+                    <img class="rays" src="images/rays.svg">
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">  
+                        <img class="logo" src="images/logo.svg" alt="Church's logo">
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href="#" id="about">About Us</a></li>
+                    <li><a href="#" id="booking">Book a Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- HEADER FOR MOBILE -->
+        <div id="mobile-nav">
+            <ul class="nav-list">
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="about">About Us</a></li>
+                <li><a href="#" id="booking">Book a Reservation</a></li>
+            </ul>
+            <nav class="nav-row">
+                <div class="logos-row">
+                    <div class="menu-button">
+                        <button id="ham-menu"></button>
+                    </div>  
+                    <img class="rays" src="images/rays.svg">
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">  
+                        <img class="logo" src="images/logo.svg" alt="Church's logo">
+                    </a>
+                </div>
+
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Madrid Temple Patron Housing</h1>
+        <div>
+            <a class="button1" href="booking.html">Book a reservation</a>
+            <a class="button2" href="https://www.churchofjesuschrist.org/temples/details/madrid-spain-temple?lang=eng">Madrid Temple page</a>
+        </div>
+        <img src="images/temple.png" alt="Madrid Temple" loading="lazy">
+
+        <div class="contact">
+            <h2>Address</h2>
+            <a href="https://www.churchofjesuschrist.org/temples/map?lang=eng&templeName=madrid-spain-temple">Calle del Templo N°2, Madrid, 28030</a>
+            <h2>Telephone Number</h2>
+            <a href="tel:+34 912 14 26 07">+34 912 14 26 07</a>
+            <h2>Email</h2>
+            <a href="mailto:madrid-ph@churchofjesuschrist.org">madrid-ph@churchofjesuschrist.org</a>
+        </div>
+
+        <div class="temple_closure">
+            <h2>Temple Closures</h2>
+            <h3>2025</h3>
+            <ul>
+                <li>Monday, June 9, 2025 - Monday, June 23, 2025</li>
+                <li>Saturday, October 4, 2025 (Limited Operations)</li>
+                <li>Wednesday, December 24, 2025 - Thursday, December 25, 2025</li>
+                <li>Wednesday, December 31, 2025</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social_pages">
+            <a class="socials" id="facebook" href="https://www.facebook.com/ChurchofJesusChrist">
+                <img src="images/facebook.svg" alt="Facebook" loading="lazy">
+            </a>
+            <a class="socials" id="x" href="https://twitter.com/Ch_JesusChrist">
+                <img src="images/x.svg" alt="x" loading="lazy">
+            </a>
+            <a class="socials" id="instagram" href="https://www.instagram.com/churchofjesuschrist">
+                <img src="images/instagram.svg" alt="Instagram" loading="lazy">
+            </a>
+            <a class="socials" id="youtube" href="https://www.youtube.com/churchofjesuschrist">
+                <img src="images/youtube.svg" alt="Youtube" loading="lazy">
+            </a>
+            <p>All Church Socials Pages</p>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;<span id="currentyear"></span> by Intellectual Reserve, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
