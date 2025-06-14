@@ -21,7 +21,7 @@ a:hover {
 /* ----- HEADER ----- */
 
 header{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -138,13 +138,22 @@ h2 {
 
 }
 
+.dates{
+    padding: 1rem 0;
+}
+
+.dates li{
+    padding: .2rem;
+}
+
 /* ----- FOOTER ----- */
 
 .social_pages {
     display: flex;
     box-sizing: border-box;
-    text-align: right;
+    text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .social_pages p,
@@ -162,3 +171,15 @@ h2 {
     width: auto;
     height: 25px;
 }
+
+#all-socials{
+    color: black
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+
