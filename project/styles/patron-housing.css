@@ -138,6 +138,10 @@ h2 {
 
 }
 
+#temple{
+    margin: 1rem;
+    max-width: 100%;
+}
 .dates{
     padding: 1rem 0;
 }

@@ -50,5 +50,34 @@
     .open a {
 	    display: block;
     }
+
+    main, footer{
+        max-width: 550px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
     
+
+    .temple-layout{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #temple{
+        padding: 0.9rem;
+        display: block;
+        max-width: 90%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .temple-closure{
+        display: block;
+        max-width: 90%;
+        box-sizing: border-box;
+        padding-left: 1.5rem;
+    }
+
+
 }
