@@ -207,6 +207,14 @@ h2 {
     text-decoration: underline;
 }
 
+.booking-form input:required{
+    border-right: solid 2px red;
+}
+
+.booking-form input:required:valid{
+    border-right: solid 2px green;
+}
+
 
 
 
