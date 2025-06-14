@@ -1,1 +1,92 @@
-<h1>Submitted</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/church-logo.png" type="image/png">
+    <title>Madrid Spain Patron Housing</title>
+    <meta name="description" content="WDD131 - Dynamic Web Fundamentals ~ Efraín Pérez ~ Project Site Plan">
+    <meta name="author" content="Efraín Pérez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/patron-housing.css">
+    <link rel="stylesheet" href="styles/patron-housing-mobile.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="/scripts/getdate.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/submission.js" defer></script>
+</head>
+<body>
+    <header>
+
+        <!-- HEADER FOR DESKTOP -->
+        <div id="desktop-nav">
+            <nav class="nav-row">
+                <div class="logos-row">
+                    <div class="menu-button">
+                        <a href="https://www.churchofjesuschrist.org/?lang=eng">
+                            <img id="chirst-logo" src="images/church_jesus_christ_simplified_symbol.png" loading="lazy">
+                        </a>
+                    </div>  
+                    <img class="rays" src="images/rays.svg" loading="lazy">
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">  
+                        <img class="logo" src="images/logo.svg" alt="Church's logo" loading="lazy">
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html" id="home">Home</a></li>
+                    <li><a href="about.html" id="about">About Us</a></li>
+                    <li><a href="#" id="booking">Book a Reservation</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- HEADER FOR MOBILE -->
+        <div id="mobile-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" id="home">Home</a></li>
+                <li><a href="about.html" id="about">About Us</a></li>
+                <li><a href="#" id="booking">Book a Reservation</a></li>
+            </ul>
+            <nav class="nav-row">
+                <div class="logos-row">
+                    <div class="menu-button">
+                        <button id="ham-menu"></button>
+                    </div>  
+                    <img class="rays" src="images/rays.svg" loading="lazy">
+                    <a href="https://www.churchofjesuschrist.org/?lang=eng">  
+                        <img class="logo" src="images/logo.svg" alt="Church's logo" loading="lazy">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="title">Madrid Temple Patron Housing</h1>
+        <h2 class="subtitle">Thank you for booking</h2>
+        <div id="submission-result"></div>
+    </main>
+
+    <footer>
+        <div class="social_pages">
+            <a class="socials" id="facebook" href="https://www.facebook.com/ChurchofJesusChrist">
+                <img src="images/facebook.svg" alt="Facebook" loading="lazy">
+            </a>
+            <a class="socials" id="x" href="https://twitter.com/Ch_JesusChrist">
+                <img src="images/x.svg" alt="x" loading="lazy">
+            </a>
+            <a class="socials" id="instagram" href="https://www.instagram.com/churchofjesuschrist">
+                <img src="images/instagram.svg" alt="Instagram" loading="lazy">
+            </a>
+            <a class="socials" id="youtube" href="https://www.youtube.com/churchofjesuschrist">
+                <img src="images/youtube.svg" alt="Youtube" loading="lazy">
+            </a>
+            <a id="all-socials" href="https://www.churchofjesuschrist.org/learn/social-media-accounts?lang=eng">All Church Socials Pages</a>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;<span id="currentyear"></span> by Intellectual Reserve, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
