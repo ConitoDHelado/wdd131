@@ -215,8 +215,39 @@ h2 {
     border-right: solid 2px green;
 }
 
+/* ----- ABOUT US ----- */
 
+.question{
+    font-size: 20px;
+    margin: 1rem 0;
+    color: var(--link1);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
 
+.arrow{
+    font-size: 30px;
+    transition: transform 0.3s;
+}
+
+.arrow.open{
+    transform: rotate(180deg);
+}
+.answer{
+    display:none;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+#answer-list{
+    padding: 1rem;
+}
 
 
 
