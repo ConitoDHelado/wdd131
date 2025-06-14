@@ -68,7 +68,7 @@ header{
 
 
 
-/* ----- MAIN ----- */
+/* ----- INDEX ----- */
 
 main, footer{
     max-width: 920px;
@@ -149,6 +149,68 @@ h2 {
 .dates li{
     padding: .2rem;
 }
+
+/* ----- FORM ----- */
+
+.booking-form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: .5rem 2%;
+}
+
+.booking-form legend{
+    font-weight: bold ;
+    padding: 0 .5rem;
+}
+
+.booking-form label{
+    display: block;
+    padding-top: 1rem;
+}
+
+.booking-form div{
+    padding-top: 1rem;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="tel"],
+.booking-form input[type="email"],
+.booking-form input[type="date"]
+{
+    display: block;
+    border: solid 1px #888;
+    border-radius: 1px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.booking-form input[type="radio"]{
+    margin-right: 6px;
+}
+
+.booking-form input[type="submit"]{
+    border: none;
+    font-size: 18px;
+    background-color: var(--link2);
+    color: #fff;
+    border-radius: 1px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 324px;
+    margin: -1rem 2% 2rem 2%;
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: var(--link1);
+    text-decoration: underline;
+}
+
+
+
+
+
 
 /* ----- FOOTER ----- */
 

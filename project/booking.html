@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/patron-housing.css">
     <link rel="stylesheet" href="styles/patron-housing-mobile.css">
+    <link rel="stylesheet" href="styles/form.css">
     <script src="/scripts/getdate.js" defer></script>
     <script src="scripts/menu.js" defer></script>
 </head>
@@ -60,7 +61,39 @@
         </div>
     </header>
     <main>
-        <h1 class="title">Booking</h1>
+        <h1 class="title">Madrid Temple Patron Housing</h1>
+        <h2 class="subtitle">Reservation Form</h2>
+
+        <form method="get" action="submit.html" class="booking-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First name*<input type="text" name="fname" required></label>
+                <label>Last name*<input type="text" name="lname" required></label>
+                <label>Phone<input type="tel" name="phone" placeholder="6116116112"></label>
+                <label>Email*<input type="email" name="email" required placeholder="email@mail.com"></label>  
+            </fieldset>
+            <fieldset>
+                <legend>Booking Information</legend>
+                <div>Number of People*</div>
+                <label><input type="radio" name="people" value="1" required>1</label>
+                <label><input type="radio" name="people" value="2">2</label>
+                <label><input type="radio" name="people" value="3">3</label>
+                <label><input type="radio" name="people" value="4+">4+</label>
+                
+                <div>Room Type*</div>
+                <label><input type="radio" name="room" value="single" required>Single</label>
+                <label><input type="radio" name="room" value="double">Double</label>
+                <label><input type="radio" name="room" value="family">Family</label>
+                <label><input type="radio" name="room" value="shared">Shared</label>
+                
+                <label>Check-in date*<input type="date" name=checkin required></label>
+                <label>Check-out date*<input type="date" name=checkout required></label>
+            </fieldset>
+
+            <input type="submit" value="Confirm my Reservation">
+
+
+        </form>
     </main>
 
     <footer>
